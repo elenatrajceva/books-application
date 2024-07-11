@@ -1,0 +1,116 @@
+.book-list {
+  width: 100%;
+}
+
+.book-list__title {
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 32px;
+  margin: 30px 0;
+}
+
+.book-list__searchbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.searchbar__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.book-list__no-results {
+  color: darkgray;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 10px;
+  font-size: 18px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.searchbar__form {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  width: 50%;
+}
+
+.search__input,
+.search__button,
+.searchbar__select {
+  border: solid 1px blue;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.search__input {
+  margin-right: 4px;
+  width: 80%;
+}
+
+.search__button {
+  background: blue;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.searchbar__select {
+  background: white;
+  color: black;
+  width: 200px;
+  font-size: 14px;
+}
+
+.table__header,
+.table__cell {
+  padding: 12px;
+}
+
+.table__header {
+  text-align: left;
+}
+
+.table__data-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table__data-row:hover {
+  background-color: #f1f1f1;
+}
+
+::ng-deep .highlight {
+  font-weight: bold;
+  color: red;
+}
+
+@media screen and (max-width: 700px) {
+  .book-list__searchbar {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .searchbar__form {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .searchbar__select {
+    align-self: flex-end;
+  }
+  .book-list__title {
+    font-size: 24px !important;
+    margin: 20px 0 !important;
+  }
+}
