@@ -1,5 +1,7 @@
-# Starting the application
+# Hosted web page URL
+*https://elenatrajceva.github.io/books-application/*
 
+# Starting the application
 
 1.	**Clone the Repository**  
    •	Open a terminal or command prompt.  
@@ -31,4 +33,6 @@
      ```shell
       ng serve
       ```
-     • Open a web browser and navigate to http://localhost:4200 to view the running Angular application.
+     • Open a web browser and navigate to http://localhost:4200 to view the running Angular application.  
+
+
